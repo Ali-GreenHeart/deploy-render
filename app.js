@@ -1,5 +1,8 @@
 import express from 'express'
 import { v4 as generateId } from 'uuid'
+import dotenv from 'dotenv'
+dotenv.config()
+
 // universally unique id
 const pets = [
     {
@@ -42,6 +45,6 @@ app.post("/pets", (req, res) => {
 })
 
 
-app.listen(10000, () => {
+app.listen(process.env.PORT, () => {
     console.log('10000de seni gozleyirik. ')
 })
