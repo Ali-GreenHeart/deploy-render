@@ -46,5 +46,5 @@ app.post("/pets", (req, res) => {
 
 
 app.listen(process.env.PORT, () => {
-    console.log('10000de seni gozleyirik. ')
+    console.log(`${process.env.PORT}de seni gozleyirik. `)
 })
