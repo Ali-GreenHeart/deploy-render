@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Ali-GreenHeart/deploy-render#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
   }
 }
